@@ -1,0 +1,92 @@
+.contact-container {
+  color: #ffffff;
+  height: 100%;
+  padding: 90px 0;
+  background: #ea5455;
+}
+
+.content-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.contact-text-wrap {
+  margin-top: auto;
+  padding: 120px 0;
+
+  text-align: center;
+}
+
+.intro-text {
+  font-family: "Poppins";
+  color: #ffb400;
+  font-size: 28px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+}
+
+.contact-heading {
+  font-family: "DM Serif Display";
+  margin-bottom: 24px;
+  font-size: 90px;
+  line-height: 1.1;
+  color: #2d4059;
+}
+
+.hero-btn {
+  font-family: "Poppins";
+  color: #ea5455;
+  border-color: #ea5455;
+}
+
+.contact-btn {
+  margin-top: 50px;
+}
+
+.contact-btn:hover {
+  color: #ea5455;
+}
+
+.hero-btn-alt {
+  font-family: "Poppins";
+  color: rgb(0, 0, 0);
+  background-color: #ea5455;
+  border-color: #ea5455;
+}
+
+.hero-btn-alt:hover {
+  color: #ea5455;
+  background-color: #ea545400;
+  border-color: #ea5455;
+}
+
+.contact-subtitle {
+  font-family: "Poppins";
+  max-width: 1000px;
+  margin: auto;
+  font-size: 28px;
+  line-height: 38px;
+  color: white;
+}
+
+.img-wrap {
+  max-width: 525px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.anps-logo {
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+}
+

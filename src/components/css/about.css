@@ -1,0 +1,141 @@
+.about-container{
+    color: #ffffff;
+    min-height: 100vh;
+    height: 100%;
+    padding: 100px 0;
+    background: #f6f6f6;
+}
+
+
+
+
+.about-container-row{
+    display: flex;
+    margin: 0 -15px -15px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.container-column{
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.text-wrap{
+    max-width: 700px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+
+.intro-text{
+    font-family: "Poppins";
+    color: #ffa62b;
+    font-size: 28px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+
+.about-heading{
+    font-family: "DM Serif Display";
+ margin-bottom: 24px;
+ font-size: 55px;
+ line-height: 1.1;
+ color: #ea5455;
+}
+
+.about-text{
+    font-family: "Poppins";
+    max-width: 650px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #2d4059;
+}
+
+
+.about-img-wrap{
+    max-width: 525px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.skill-wrap{
+    font-family: "Poppins";
+    max-width: 650px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #2d4059;
+    margin-left: 21px;
+}
+
+.col{
+    align-content: center;
+}
+
+.bike-img{
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 900px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .container-column{
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-wrap{
+        padding-bottom: 65px;
+    }
+
+    .about-ul{
+        list-style: none;
+    }
+} 
+
+@media screen and (max-width: 991px) {
+    .content-container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.hero-head{
+    font-size: 40px;
+}
+
+.GlobalStyle{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+
+}

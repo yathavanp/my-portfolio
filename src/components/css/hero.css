@@ -1,0 +1,165 @@
+.hero-container{
+    color: #ffffff;
+    min-height: 100vh;
+    height: 100%;
+    padding: 150px 0;
+    background: #2d4059;
+}
+
+
+.content-container{
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    margin-right:  auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+
+.container-row{
+    display: flex;
+    margin: 0 -15px -15px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.container-column{
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+
+.text-wrap{
+    max-width: 700px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+
+.intro-text{
+    font-family: "Poppins";
+    color: #ffb400;
+    font-size: 28px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+
+.hero-heading{
+font-family: "DM Serif Display";
+ margin-bottom: 24px;
+ font-size: 90px;
+ line-height: 1.1;
+ color: #f6f6f6;
+}
+
+.hero-btn{
+      font-family: "Poppins";
+    color: #ea5455;
+    border-color: #ea5455;
+}
+
+
+.hero-btn:hover {
+    color: #212529;
+    background-color: #ea5455;
+    border-color: #ea5455;
+}
+
+
+.hero-btn-alt{
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    background-color: #ea5455;
+    border-color: #ea5455;
+}
+
+
+.hero-btn-alt:hover {
+    color:  #ea5455;
+    background-color: #ea545400;
+    border-color: #ea5455;
+}
+
+.subtitle{
+    font-family: "Poppins";
+    max-width: 650px;
+    margin-bottom: 35px;
+    font-size: 28px;
+    line-height: 38px;
+    color: #ea5455;
+}
+
+
+.img-wrap{
+    max-width: 525px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.anps-logo{
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+}
+@media screen and (max-width: 768px){
+    .container-column{
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .text-wrap{
+        padding-bottom: 65px;
+        text-align: center;
+    }
+} 
+
+@media screen and (max-width: 991px) {
+    .content-container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .intro-text{
+ 
+        font-size: 22px;
+        line-height: 14px;
+        letter-spacing: 1.2px;
+        margin-bottom: 14px;
+    }
+
+    .hero-heading{
+         margin-bottom: 20px;
+         font-size: 60px;
+
+        }
+
+        .subtitle{
+
+            margin-bottom: 30px;
+            font-size: 22px;
+            line-height: 35px;
+       
+        }
+}
+
+
