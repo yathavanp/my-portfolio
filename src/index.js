@@ -7,7 +7,7 @@ import App from "./components/App";
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
-      <title>{"Yathavan Pushpanahthan"}</title>
+      <title>{"Yathavan Pushpanathan"}</title>
       <meta name="description" content={"Yathavan Pushpanathan"} />
       <link rel="icon" href={favicon} />
     </Helmet>

@@ -7,7 +7,7 @@ const Data = [
   {
     title: "Stick",
     description:
-      "A mock Google Keep note-taking web application, saving user data on personalized accounts. On Stick user accounts using Passport with data stored on MongoDB Cloud Atlas. With Stick's simple and modern UI, take pleasure in jotting your notes!",
+      "A mock Google Keep note-taking web application, saving user data on personalized accounts. On Stick, user accounts use Passport with data stored on MongoDB Cloud Atlas. With Stick's simple and modern UI, take pleasure in jotting your notes!",
     technologies: ["React", "Node.js", "Express", "Passport", "MongoDB"],
     site: "https://stick-note.herokuapp.com/",
     github: "https://github.com/yathavanp/Stick",
